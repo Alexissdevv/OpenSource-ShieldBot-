@@ -1,0 +1,29 @@
+{
+  "name": "shieldbot",
+  "author": "Alexis.#5064",
+  "version": "0.0.1",
+  "description": "Discord Anti Raid Bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "worker index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "discord-buttons": "^4.0.0",
+    "discord.js": "^12.3.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "megadb": "^3.4.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.13",
+    "ms": "^2.1.2",
+    "parse-ms": "^2.1.0",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "devDependencies": {}
+}
